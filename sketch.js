@@ -72,4 +72,17 @@ function draw(){
         drawSprites() ;
     }
   
-
+ // function mouseDragged(){
+    //   Matter.Body.setPosition(ball, {x: mouseX , y: mouseY});
+    // }
+    
+    
+    // function mouseReleased(){
+    //   slingshot.fly();
+    // }
+    
+    // function keyPressed(){
+    //   if( keyCode === 32 ){
+    //      slingshot.attach(ball );
+    //   }
+    // }
