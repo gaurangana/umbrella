@@ -3,7 +3,7 @@ const World= Matter.World;
 const Bodies = Matter.Bodies;
 
 var thunder, thunder1,thunder2,thunder3,thunder4 ;
-var engine , world ;
+var engine , world , maxDrops ;
 var rand ;
 var maxDrops = 100
 var thunderCreatedFrame = 0 ;
@@ -27,7 +27,7 @@ function setup(){
 
     for(var i = 0 ; i< maxDrops; i++ ){
 
-        maxDrops.push(new createDrop(random(0,1000), random(0,1000)))
+        maxDrops.push(new CreateDrop(random(0,1000), random(0,1000)))
 
     }
 
