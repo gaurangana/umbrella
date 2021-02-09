@@ -5,7 +5,7 @@ const Bodies = Matter.Bodies;
 var thunder, thunder1,thunder2,thunder3,thunder4 ;
 var engine , world , maxDrops ;
 var rand ;
-var maxDrops = 100
+var maxDrops = 300
 var thunderCreatedFrame = 0 ;
 
 
